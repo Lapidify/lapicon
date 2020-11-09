@@ -1,0 +1,119 @@
+---
+label: Icons
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: Name
+- type: text
+  name: display_name
+  label: Display Name
+- type: text
+  name: code
+  label: Icon Code
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Halloween Costumes
+    - Fairy Tale
+    - Halloween Party
+    - Laboratory
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type
+pages:
+- _icons/lapicon-alien.md
+- _icons/lapicon-angel.md
+- _icons/lapicon-atom.md
+- _icons/lapicon-bacterium.md
+- _icons/lapicon-bacterium1.md
+- _icons/lapicon-bacterium2.md
+- _icons/lapicon-benzene.md
+- _icons/lapicon-bride.md
+- _icons/lapicon-broom.md
+- _icons/lapicon-castle.md
+- _icons/lapicon-cat.md
+- _icons/lapicon-catrina.md
+- _icons/lapicon-cauldron.md
+- _icons/lapicon-cowardly-lion.md
+- _icons/lapicon-crystal-ball.md
+- _icons/lapicon-cyclops.md
+- _icons/lapicon-devil.md
+- _icons/lapicon-dna.md
+- _icons/lapicon-doll.md
+- _icons/lapicon-dragon.md
+- _icons/lapicon-elf1.md
+- _icons/lapicon-excalibur.md
+- _icons/lapicon-fairytale.md
+- _icons/lapicon-firefighter.md
+- _icons/lapicon-frankestein.md
+- _icons/lapicon-frog-prince.md
+- _icons/lapicon-genie.md
+- _icons/lapicon-ghost.md
+- _icons/lapicon-ghost1.md
+- _icons/lapicon-glass-shoes.md
+- _icons/lapicon-gnome.md
+- _icons/lapicon-goblin.md
+- _icons/lapicon-harlequin.md
+- _icons/lapicon-indian-woman.md
+- _icons/lapicon-king.md
+- _icons/lapicon-knight1.md
+- _icons/lapicon-little-red-riding-hood.md
+- _icons/lapicon-little-red-riding-hood1.md
+- _icons/lapicon-mad-hatter.md
+- _icons/lapicon-magic-lamp.md
+- _icons/lapicon-magic-mirror.md
+- _icons/lapicon-magic-wand.md
+- _icons/lapicon-mermaid.md
+- _icons/lapicon-mime.md
+- _icons/lapicon-molecule.md
+- _icons/lapicon-monster.md
+- _icons/lapicon-mummy.md
+- _icons/lapicon-ninja.md
+- _icons/lapicon-nun.md
+- _icons/lapicon-phoenix.md
+- _icons/lapicon-pig.md
+- _icons/lapicon-pinocchio.md
+- _icons/lapicon-pirate.md
+- _icons/lapicon-pirate1.md
+- _icons/lapicon-poison.md
+- _icons/lapicon-poison1.md
+- _icons/lapicon-poisonous.md
+- _icons/lapicon-police.md
+- _icons/lapicon-prince.md
+- _icons/lapicon-princess.md
+- _icons/lapicon-princess1.md
+- _icons/lapicon-prisioner.md
+- _icons/lapicon-puss-in-boots.md
+- _icons/lapicon-queen.md
+- _icons/lapicon-rat.md
+- _icons/lapicon-ring.md
+- _icons/lapicon-robin-hood.md
+- _icons/lapicon-robot.md
+- _icons/lapicon-scarecrow.md
+- _icons/lapicon-serial-killer.md
+- _icons/lapicon-skeleton.md
+- _icons/lapicon-superheroine.md
+- _icons/lapicon-test-tube.md
+- _icons/lapicon-test-tube1.md
+- _icons/lapicon-thief.md
+- _icons/lapicon-tin-man.md
+- _icons/lapicon-tower.md
+- _icons/lapicon-troglodyte.md
+- _icons/lapicon-unicorn.md
+- _icons/lapicon-vampire.md
+- _icons/lapicon-vampire1.md
+- _icons/lapicon-viking.md
+- _icons/lapicon-virus.md
+- _icons/lapicon-virus1.md
+- _icons/lapicon-white-rabbit.md
+- _icons/lapicon-witch1.md
+- _icons/lapicon-wizard1.md
+- _icons/lapicon-wolf.md
+- _icons/lapicon-zombie.md

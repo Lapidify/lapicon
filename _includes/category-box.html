@@ -1,0 +1,15 @@
+<!-- Animated Category Box -->
+<a class="category-box" href="{{ site.baseurl }}{{ category.url }}" style="text-decoration: none;">
+    {% if category.date %}
+    {% include new-category-tag.html %}
+    {% endif %}
+    {% assign icon_count = site.icons | where: 'type', category.name %}
+    <span class="icon-count" style="color: {{ category.color-primary }};">{{ icon_count.size }} Icons</span>
+    <span class="category-name" style="color: {{ category.color-primary }};">{{ category.name }}</span>
+    <ul class="circles">
+        {% assign sorted_icons = site.icons | where: 'type', category.name %}
+        {% for icon in sorted_icons limit:15 %}
+        <li><i class="{{ icon.name }}">{% include span.html %}</i></li>
+        {% endfor %}
+    </ul>
+</a>

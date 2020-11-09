@@ -1,0 +1,26 @@
+menu:
+- title: Home
+  icon:  iconly-bulkBookmark
+  url: /
+- title: Icons
+  icon:  iconly-bulkCategory
+  url: /icons
+- title: Categories
+  icon:  iconly-bulkStar
+  url: /categories
+- title: Documentation
+  icon: iconly-bulkDocument
+  url: /documentation
+- title: Contact
+  icon:  iconly-bulkChat
+  url: /contact
+
+footer_menu:
+  - title: Contact
+    url: ""
+  - title: About Us
+    url: ""
+  - title: FAQ's
+    url: ""
+  - title: Support
+    url: ""
