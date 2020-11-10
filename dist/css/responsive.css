@@ -46,7 +46,7 @@
     .grid-wrap {
         grid-template-columns: 1fr;
     }
-    .subcategory-wrap {
+    .category-wrap {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
     }
@@ -80,10 +80,10 @@
     .icons-wrap {
         grid-template-columns: 1fr 1fr;
     }
-    .subCategory-name {
+    .category-name {
         display: none;
     }
-    .subCategory-box {
+    .category-box {
         height: 160px;
     }
 }
@@ -98,7 +98,7 @@
 }
 /* min Width */
 @media (min-width: 400px) {
-    .subCategory-name-mb {
+    .category-name-mb {
         display: none;
     }
 }

@@ -529,14 +529,7 @@
     outline: none;
 }
 
-/* Category */
-.icons-category-wrap {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin: 30px auto;
-    grid-gap: 30px;
-}
+/* icon count */
 .icon-count {
     position: absolute;
     z-index: 2;
@@ -552,45 +545,16 @@
     color: #ffb222;
     border: 2px solid #373d48;
 }
-.category-box {
-    text-align: center;
-    width: 100%;
-    background: #1d2026;
-    box-shadow: 5px 5px 9px #191b20, -5px -5px 9px #21252c;
-    padding: 100px 20px;
-    border-radius: 15px;
-    border: 2px solid #363b45;
-    font-size: 20px;
-    font-weight: 800;
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
-    overflow: hidden;
-}
-.category-box:hover {
-    background: #1d2026;
-    box-shadow: inset 5px 5px 9px #191b20, 
-                inset -5px -5px 9px #21252c;
-}
-.category-name {
-    position: relative;
-    z-index: 3;
-    background: linear-gradient(145deg, #1a1d22, #1f2229);
-    box-shadow: 5px 5px 10px #1a1d22, -5px -5px 10px #20232a;
-    padding: 5px 10px;
-    border-radius: 10px;
-    color: #ffb222;
-    border: 2px solid #3f4551;
-}
 
 /* Sub Category */
-.subcategory-wrap {
+.category-wrap {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     margin: 20px auto;
     grid-gap: 30px;
 }
-.subCategory-box {
+.category-box {
     border: 2px solid #4a505b;;
     height: 200px;
     width: 100%;
@@ -599,11 +563,11 @@
     box-shadow:  5px 5px 10px #191c21, 
              -5px -5px 10px #21242b;
 }
-.subCategory-box:hover {
+.category-box:hover {
     box-shadow: inset 5px 5px 10px #191c21, 
             inset -5px -5px 10px #21242b;
 }
-.subCategory-details {
+.category-details {
     background: #1d2026;
     position: absolute;
     bottom: 0;
@@ -614,12 +578,12 @@
     border-radius: 0px 0px 12px 12px;
     z-index: 2;
 }
-.subCategory-name {
+.category-name {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-weight: 600;
 }
-.subCategory-name-mb {
+.category-name-mb {
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-weight: 600;

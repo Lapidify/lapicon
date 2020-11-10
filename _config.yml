@@ -19,9 +19,6 @@ collections:
   categories:
     output: true
     permalink: /category/:name
-  subcategories:
-    output: true
-    permalink: /subcategory/:name
 
 # Defaults
 defaults:

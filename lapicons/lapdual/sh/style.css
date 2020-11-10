@@ -1,0 +1,1087 @@
+@font-face {
+  font-family: 'lapicon';
+  src:  url('fonts/lapicon.eot?ixfrki');
+  src:  url('fonts/lapicon.eot?ixfrki#iefix') format('embedded-opentype'),
+    url('fonts/lapicon.ttf?ixfrki') format('truetype'),
+    url('fonts/lapicon.woff?ixfrki') format('woff'),
+    url('fonts/lapicon.svg?ixfrki#lapicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lapicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lapdual-badge-sh .path1:before {
+  content: "\c0001";
+  color: rgb(255, 245, 155);
+}
+.lapdual-badge-sh .path2:before {
+  content: "\c0002";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-badge-sh .path3:before {
+  content: "\c0003";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag-sh .path1:before {
+  content: "\c0004";
+  color: rgb(226, 196, 255);
+}
+.lapdual-shopping-bag-sh .path2:before {
+  content: "\c0005";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag-sh .path3:before {
+  content: "\c0006";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag-sh .path4:before {
+  content: "\c0007";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag-sh .path5:before {
+  content: "\c0008";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-t-shirt-sh .path1:before {
+  content: "\c0009";
+  color: rgb(255, 189, 188);
+}
+.lapdual-t-shirt-sh .path2:before {
+  content: "\c000a";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale-sh .path1:before {
+  content: "\c000b";
+  color: rgb(255, 189, 188);
+}
+.lapdual-sale-sh .path2:before {
+  content: "\c000c";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale-sh .path3:before {
+  content: "\c000d";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale-sh .path4:before {
+  content: "\c000e";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale-sh .path5:before {
+  content: "\c000f";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale-sh .path6:before {
+  content: "\c0010";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-money-sh .path1:before {
+  content: "\c0011";
+  color: rgb(164, 252, 196);
+}
+.lapdual-money-sh .path2:before {
+  content: "\c0012";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-money-sh .path3:before {
+  content: "\c0013";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-calculator-sh .path1:before {
+  content: "\c0014";
+  color: rgb(164, 252, 196);
+}
+.lapdual-calculator-sh .path2:before {
+  content: "\c0015";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-calculator-sh .path3:before {
+  content: "\c0016";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-calculator-sh .path4:before {
+  content: "\c0017";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-calculator-sh .path5:before {
+  content: "\c0018";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-box-sh .path1:before {
+  content: "\c0019";
+  color: rgb(255, 245, 155);
+}
+.lapdual-box-sh .path2:before {
+  content: "\c001a";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-box-sh .path3:before {
+  content: "\c001b";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-box-sh .path4:before {
+  content: "\c001c";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-star-sh .path1:before {
+  content: "\c001d";
+  color: rgb(178, 240, 251);
+}
+.lapdual-star-sh .path2:before {
+  content: "\c001e";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag1-sh .path1:before {
+  content: "\c001f";
+  color: rgb(226, 196, 255);
+}
+.lapdual-shopping-bag1-sh .path2:before {
+  content: "\c0020";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag1-sh .path3:before {
+  content: "\c0021";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-tie-sh .path1:before {
+  content: "\c0022";
+  color: rgb(164, 252, 196);
+}
+.lapdual-tie-sh .path2:before {
+  content: "\c0023";
+  margin-left: -1em;
+  color: rgb(164, 252, 196);
+}
+.lapdual-tie-sh .path3:before {
+  content: "\c0024";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-badge1-sh .path1:before {
+  content: "\c0025";
+  color: rgb(178, 240, 251);
+}
+.lapdual-badge1-sh .path2:before {
+  content: "\c0026";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-badge1-sh .path3:before {
+  content: "\c0027";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-calendar-sh .path1:before {
+  content: "\c0028";
+  color: rgb(255, 189, 188);
+}
+.lapdual-calendar-sh .path2:before {
+  content: "\c0029";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-calendar-sh .path3:before {
+  content: "\c002a";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-calendar-sh .path4:before {
+  content: "\c002b";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-calendar-sh .path5:before {
+  content: "\c002c";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-watch-sh .path1:before {
+  content: "\c002d";
+  color: rgb(164, 252, 196);
+}
+.lapdual-watch-sh .path2:before {
+  content: "\c002e";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-watch-sh .path3:before {
+  content: "\c002f";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-badge2-sh .path1:before {
+  content: "\c0030";
+  color: rgb(255, 189, 188);
+}
+.lapdual-badge2-sh .path2:before {
+  content: "\c0031";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-badge2-sh .path3:before {
+  content: "\c0032";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-badge2-sh .path4:before {
+  content: "\c0033";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-hat-sh .path1:before {
+  content: "\c0034";
+  color: rgb(226, 196, 255);
+}
+.lapdual-hat-sh .path2:before {
+  content: "\c0035";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-t-shirt1-sh .path1:before {
+  content: "\c0036";
+  color: rgb(255, 189, 188);
+}
+.lapdual-t-shirt1-sh .path2:before {
+  content: "\c0037";
+  margin-left: -1em;
+  color: rgb(255, 189, 188);
+}
+.lapdual-t-shirt1-sh .path3:before {
+  content: "\c0038";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-purse-sh .path1:before {
+  content: "\c0039";
+  color: rgb(2, 2, 136);
+}
+.lapdual-purse-sh .path2:before {
+  content: "\c003a";
+  margin-left: -1em;
+  color: rgb(255, 245, 155);
+}
+.lapdual-purse-sh .path3:before {
+  content: "\c003b";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-backpack-sh .path1:before {
+  content: "\c003c";
+  color: rgb(178, 240, 251);
+}
+.lapdual-backpack-sh .path2:before {
+  content: "\c003d";
+  margin-left: -1em;
+  color: rgb(178, 240, 251);
+}
+.lapdual-backpack-sh .path3:before {
+  content: "\c003e";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-tag-sh .path1:before {
+  content: "\c003f";
+  color: rgb(226, 196, 255);
+}
+.lapdual-shopping-tag-sh .path2:before {
+  content: "\c0040";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-tag-sh .path3:before {
+  content: "\c0041";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-tag-sh .path4:before {
+  content: "\c0042";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-tag-sh .path5:before {
+  content: "\c0043";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-tag-sh .path6:before {
+  content: "\c0044";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-chat-sh .path1:before {
+  content: "\c0045";
+  color: rgb(2, 2, 136);
+}
+.lapdual-chat-sh .path2:before {
+  content: "\c0046";
+  margin-left: -1em;
+  color: rgb(255, 245, 155);
+}
+.lapdual-chat-sh .path3:before {
+  content: "\c0047";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-chat-sh .path4:before {
+  content: "\c0048";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-chat-sh .path5:before {
+  content: "\c0049";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale1-sh .path1:before {
+  content: "\c004a";
+  color: rgb(164, 252, 196);
+}
+.lapdual-sale1-sh .path2:before {
+  content: "\c004b";
+  margin-left: -1em;
+  color: rgb(164, 252, 196);
+}
+.lapdual-sale1-sh .path3:before {
+  content: "\c004c";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale1-sh .path4:before {
+  content: "\c004d";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale1-sh .path5:before {
+  content: "\c004e";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale1-sh .path6:before {
+  content: "\c004f";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale1-sh .path7:before {
+  content: "\c0050";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag2-sh .path1:before {
+  content: "\c0051";
+  color: rgb(178, 240, 251);
+}
+.lapdual-shopping-bag2-sh .path2:before {
+  content: "\c0052";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag2-sh .path3:before {
+  content: "\c0053";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag2-sh .path4:before {
+  content: "\c0054";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag2-sh .path5:before {
+  content: "\c0055";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-basket-sh .path1:before {
+  content: "\c0056";
+  color: rgb(255, 189, 188);
+}
+.lapdual-shopping-basket-sh .path2:before {
+  content: "\c0057";
+  margin-left: -1em;
+  color: rgb(255, 189, 188);
+}
+.lapdual-shopping-basket-sh .path3:before {
+  content: "\c0058";
+  margin-left: -1em;
+  color: rgb(255, 189, 188);
+}
+.lapdual-shopping-basket-sh .path4:before {
+  content: "\c0059";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-basket-sh .path5:before {
+  content: "\c005a";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-basket1-sh .path1:before {
+  content: "\c005b";
+  color: rgb(226, 196, 255);
+}
+.lapdual-shopping-basket1-sh .path2:before {
+  content: "\c005c";
+  margin-left: -1em;
+  color: rgb(226, 196, 255);
+}
+.lapdual-shopping-basket1-sh .path3:before {
+  content: "\c005d";
+  margin-left: -1em;
+  color: rgb(226, 196, 255);
+}
+.lapdual-shopping-basket1-sh .path4:before {
+  content: "\c005e";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-basket1-sh .path5:before {
+  content: "\c005f";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-mobile-store-sh .path1:before {
+  content: "\c0060";
+  color: rgb(178, 240, 251);
+}
+.lapdual-mobile-store-sh .path2:before {
+  content: "\c0061";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-mobile-store-sh .path3:before {
+  content: "\c0062";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-buy-sh .path1:before {
+  content: "\c0063";
+  color: rgb(255, 189, 188);
+}
+.lapdual-buy-sh .path2:before {
+  content: "\c0064";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-buy-sh .path3:before {
+  content: "\c0065";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-buy-sh .path4:before {
+  content: "\c0066";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-buy-sh .path5:before {
+  content: "\c0067";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shop-sh .path1:before {
+  content: "\c0068";
+  color: rgb(178, 240, 251);
+}
+.lapdual-shop-sh .path2:before {
+  content: "\c0069";
+  margin-left: -1em;
+  color: rgb(178, 240, 251);
+}
+.lapdual-shop-sh .path3:before {
+  content: "\c006a";
+  margin-left: -1em;
+  color: rgb(178, 240, 251);
+}
+.lapdual-shop-sh .path4:before {
+  content: "\c006b";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-download-sh .path1:before {
+  content: "\c006c";
+  color: rgb(226, 196, 255);
+}
+.lapdual-download-sh .path2:before {
+  content: "\c006d";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-download-sh .path3:before {
+  content: "\c006e";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-download-sh .path4:before {
+  content: "\c006f";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-mobile-phone-sh .path1:before {
+  content: "\c0070";
+  color: rgb(255, 245, 155);
+}
+.lapdual-mobile-phone-sh .path2:before {
+  content: "\c0071";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-mobile-phone-sh .path3:before {
+  content: "\c0072";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-mobile-phone-sh .path4:before {
+  content: "\c0073";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-mobile-phone-sh .path5:before {
+  content: "\c0074";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-pay-sh .path1:before {
+  content: "\c0075";
+  color: rgb(255, 245, 155);
+}
+.lapdual-pay-sh .path2:before {
+  content: "\c0076";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-pay-sh .path3:before {
+  content: "\c0077";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-pay-sh .path4:before {
+  content: "\c0078";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-pay-sh .path5:before {
+  content: "\c0079";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-pay-sh .path6:before {
+  content: "\c007a";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-pay-sh .path7:before {
+  content: "\c007b";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-location-pin-sh .path1:before {
+  content: "\c007c";
+  color: rgb(164, 252, 196);
+}
+.lapdual-location-pin-sh .path2:before {
+  content: "\c007d";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-location-pin-sh .path3:before {
+  content: "\c007e";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-box1-sh .path1:before {
+  content: "\c007f";
+  color: rgb(2, 2, 136);
+}
+.lapdual-box1-sh .path2:before {
+  content: "\c0080";
+  margin-left: -1em;
+  color: rgb(255, 189, 188);
+}
+.lapdual-box1-sh .path3:before {
+  content: "\c0081";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-pay1-sh .path1:before {
+  content: "\c0082";
+  color: rgb(255, 245, 155);
+}
+.lapdual-pay1-sh .path2:before {
+  content: "\c0083";
+  margin-left: -1em;
+  color: rgb(255, 245, 155);
+}
+.lapdual-pay1-sh .path3:before {
+  content: "\c0084";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-pay1-sh .path4:before {
+  content: "\c0085";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-pay1-sh .path5:before {
+  content: "\c0086";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-pay1-sh .path6:before {
+  content: "\c0087";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-pay1-sh .path7:before {
+  content: "\c0088";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-gift-card-sh .path1:before {
+  content: "\c0089";
+  color: rgb(164, 252, 196);
+}
+.lapdual-gift-card-sh .path2:before {
+  content: "\c008a";
+  margin-left: -1em;
+  color: rgb(164, 252, 196);
+}
+.lapdual-gift-card-sh .path3:before {
+  content: "\c008b";
+  margin-left: -1em;
+  color: rgb(164, 252, 196);
+}
+.lapdual-gift-card-sh .path4:before {
+  content: "\c008c";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-gift-card-sh .path5:before {
+  content: "\c008d";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-gift-card-sh .path6:before {
+  content: "\c008e";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-gift-card-sh .path7:before {
+  content: "\c008f";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale2-sh .path1:before {
+  content: "\c0090";
+  color: rgb(255, 189, 188);
+}
+.lapdual-sale2-sh .path2:before {
+  content: "\c0091";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale2-sh .path3:before {
+  content: "\c0092";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale2-sh .path4:before {
+  content: "\c0093";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale2-sh .path5:before {
+  content: "\c0094";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale2-sh .path6:before {
+  content: "\c0095";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-sale2-sh .path7:before {
+  content: "\c0096";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-cart-sh .path1:before {
+  content: "\c0097";
+  color: rgb(178, 240, 251);
+}
+.lapdual-shopping-cart-sh .path2:before {
+  content: "\c0098";
+  margin-left: -1em;
+  color: rgb(178, 240, 251);
+}
+.lapdual-shopping-cart-sh .path3:before {
+  content: "\c0099";
+  margin-left: -1em;
+  color: rgb(178, 240, 251);
+}
+.lapdual-shopping-cart-sh .path4:before {
+  content: "\c009a";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-cart-sh .path5:before {
+  content: "\c009b";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-cart-sh .path6:before {
+  content: "\c009c";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-cart1-sh .path1:before {
+  content: "\c009d";
+  color: rgb(255, 189, 188);
+}
+.lapdual-shopping-cart1-sh .path2:before {
+  content: "\c009e";
+  margin-left: -1em;
+  color: rgb(255, 189, 188);
+}
+.lapdual-shopping-cart1-sh .path3:before {
+  content: "\c009f";
+  margin-left: -1em;
+  color: rgb(255, 189, 188);
+}
+.lapdual-shopping-cart1-sh .path4:before {
+  content: "\c00a0";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-cart1-sh .path5:before {
+  content: "\c00a1";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-cart1-sh .path6:before {
+  content: "\c00a2";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-add-to-cart-sh .path1:before {
+  content: "\c00a3";
+  color: rgb(226, 196, 255);
+}
+.lapdual-add-to-cart-sh .path2:before {
+  content: "\c00a4";
+  margin-left: -1em;
+  color: rgb(226, 196, 255);
+}
+.lapdual-add-to-cart-sh .path3:before {
+  content: "\c00a5";
+  margin-left: -1em;
+  color: rgb(226, 196, 255);
+}
+.lapdual-add-to-cart-sh .path4:before {
+  content: "\c00a6";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-add-to-cart-sh .path5:before {
+  content: "\c00a7";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-cart2-sh .path1:before {
+  content: "\c00a8";
+  color: rgb(255, 245, 155);
+}
+.lapdual-shopping-cart2-sh .path2:before {
+  content: "\c00a9";
+  margin-left: -1em;
+  color: rgb(255, 245, 155);
+}
+.lapdual-shopping-cart2-sh .path3:before {
+  content: "\c00aa";
+  margin-left: -1em;
+  color: rgb(255, 245, 155);
+}
+.lapdual-shopping-cart2-sh .path4:before {
+  content: "\c00ab";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-hanger-sh .path1:before {
+  content: "\c00ac";
+  color: rgb(178, 240, 251);
+}
+.lapdual-hanger-sh .path2:before {
+  content: "\c00ad";
+  margin-left: -1em;
+  color: rgb(178, 240, 251);
+}
+.lapdual-hanger-sh .path3:before {
+  content: "\c00ae";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag3-sh .path1:before {
+  content: "\c00af";
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag3-sh .path2:before {
+  content: "\c00b0";
+  margin-left: -1em;
+  color: rgb(226, 196, 255);
+}
+.lapdual-shopping-bag3-sh .path3:before {
+  content: "\c00b1";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-dollar-sh .path1:before {
+  content: "\c00b2";
+  color: rgb(164, 252, 196);
+}
+.lapdual-dollar-sh .path2:before {
+  content: "\c00b3";
+  margin-left: -1em;
+  color: rgb(164, 252, 196);
+}
+.lapdual-dollar-sh .path3:before {
+  content: "\c00b4";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-dollar-sh .path4:before {
+  content: "\c00b5";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-dollar-sh .path5:before {
+  content: "\c00b6";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-wallet-sh .path1:before {
+  content: "\c00b7";
+  color: rgb(226, 196, 255);
+}
+.lapdual-wallet-sh .path2:before {
+  content: "\c00b8";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-wallet-sh .path3:before {
+  content: "\c00b9";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-coin-sh .path1:before {
+  content: "\c00ba";
+  color: rgb(255, 245, 155);
+}
+.lapdual-coin-sh .path2:before {
+  content: "\c00bb";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-coin-sh .path3:before {
+  content: "\c00bc";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-buy1-sh .path1:before {
+  content: "\c00bd";
+  color: rgb(255, 245, 155);
+}
+.lapdual-buy1-sh .path2:before {
+  content: "\c00be";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-buy1-sh .path3:before {
+  content: "\c00bf";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-buy1-sh .path4:before {
+  content: "\c00c0";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-buy1-sh .path5:before {
+  content: "\c00c1";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-open-sh .path1:before {
+  content: "\c00c2";
+  color: rgb(178, 240, 251);
+}
+.lapdual-open-sh .path2:before {
+  content: "\c00c3";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-open-sh .path3:before {
+  content: "\c00c4";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-open-sh .path4:before {
+  content: "\c00c5";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-open-sh .path5:before {
+  content: "\c00c6";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-open-sh .path6:before {
+  content: "\c00c7";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-open-sh .path7:before {
+  content: "\c00c8";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-closed-sh .path1:before {
+  content: "\c00c9";
+  color: rgb(226, 196, 255);
+}
+.lapdual-closed-sh .path2:before {
+  content: "\c00ca";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-closed-sh .path3:before {
+  content: "\c00cb";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-closed-sh .path4:before {
+  content: "\c00cc";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-closed-sh .path5:before {
+  content: "\c00cd";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-closed-sh .path6:before {
+  content: "\c00ce";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-closed-sh .path7:before {
+  content: "\c00cf";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-closed-sh .path8:before {
+  content: "\c00d0";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-present-sh .path1:before {
+  content: "\c00d1";
+  color: rgb(178, 240, 251);
+}
+.lapdual-present-sh .path2:before {
+  content: "\c00d2";
+  margin-left: -1em;
+  color: rgb(178, 240, 251);
+}
+.lapdual-present-sh .path3:before {
+  content: "\c00d3";
+  margin-left: -1em;
+  color: rgb(178, 240, 251);
+}
+.lapdual-present-sh .path4:before {
+  content: "\c00d4";
+  margin-left: -1em;
+  color: rgb(178, 240, 251);
+}
+.lapdual-present-sh .path5:before {
+  content: "\c00d5";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-credit-card-sh .path1:before {
+  content: "\c00d6";
+  color: rgb(164, 252, 196);
+}
+.lapdual-credit-card-sh .path2:before {
+  content: "\c00d7";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-credit-card-sh .path3:before {
+  content: "\c00d8";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-credit-card-sh .path4:before {
+  content: "\c00d9";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-credit-card-sh .path5:before {
+  content: "\c00da";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-credit-card-sh .path6:before {
+  content: "\c00db";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag4-sh .path1:before {
+  content: "\c00dc";
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag4-sh .path2:before {
+  content: "\c00dd";
+  margin-left: -1em;
+  color: rgb(2, 2, 136);
+}
+.lapdual-shopping-bag4-sh .path3:before {
+  content: "\c00de";
+  margin-left: -1em;
+  color: rgb(255, 189, 188);
+}

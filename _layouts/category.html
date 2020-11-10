@@ -10,9 +10,22 @@ permalink: /projects.html
                 <h2 class="section-title mt-0 gradient-text-people">Meet Our Icons</h2>
                 <p class="section-paragraph mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad quis nostrud.</p>
             </div>
-            <div class="icons-category-wrap">
+            <div class="category-wrap">
                 {% for category in site.categories %}
-                {% include category-box.html %}
+                <div class="category-box">
+                    {% assign icon_count = site.icons | where: 'category', category.name %}
+                    <span class="icon-count" style="color: {{ category.color-primary }};">{{ icon_count.size }} Icons</span>
+                    <div class="category-details">
+                        <span class="category-name" style="color: {{ category.color-primary }};">{{ category.display_name }}</span>
+                        <span class="category-name-mb" style="color: {{ category.color-primary }};">{{ category.display_name | truncate: 15}}</span>
+                    </div>
+                    <ul class="circles">
+                        {% assign sorted_icons = site.icons | where: 'category', category.name %}
+                        {% for icon in sorted_icons limit:15 %}
+                        <li><i class="{{ icon.name }}">{% include span.html %}</i></li>
+                        {% endfor %}
+                    </ul>
+                </div>
                 {% endfor %}
             </div>
         </div>

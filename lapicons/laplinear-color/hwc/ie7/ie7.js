@@ -10,7 +10,7 @@
 (function() {
 	function addIcon(el, entity) {
 		var html = el.innerHTML;
-		el.innerHTML = '<span style="font-family: \'laplinear-color\'">' + entity + '</span>' + html;
+		el.innerHTML = '<span style="font-family: \'lapicon\'">' + entity + '</span>' + html;
 	}
 	var icons = {
 		'laplinear-color-scientist-hwc': '&#xa0001;',

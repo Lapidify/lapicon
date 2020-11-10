@@ -1,22 +1,49 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: main
 
 # when using the default proxy server port
 local_backend: true
 
-site_url: https://eroyx.tk
-display_url: https://eroyx.tk
+site_url: https://lapicons.tk
+display_url: https://lapicons.tk
 logo_url: https://eroyx.tk/assets/images/cms.png
 
 media_folder: "uploads"
 collections:
+  - label: "Category"
+    name: "categories"
+    folder: "_categories"
+    create: true
+    identifier_field: "name"
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
+        picker_utc: true
+      - label: "Shortname"
+        name: "name"
+        widget: "string"
+        required: true
+        hint: "Ex: Two/three letter code."
+      - label: "Display Name"
+        name: "display_name"
+        widget: "string"
+        required: true
+        hint: "Ex: Actuall name of the category."
+      - label: "Category Color"
+        name: "color-primary"
+        widget: "color"
   - label: "Icons"
     name: "icons"
     folder: "_icons"
     create: true
-    identifier_field: "name"
-    slug: "{{slug}}"
+    identifier_field: "display_name"
+    slug: "{{field.name}}"
     delete: false
     editor:
       preview: false
@@ -27,30 +54,25 @@ collections:
         widget: "datetime"
         format: "YYYY-MM-DD HH:mm:ss"
         picker_utc: true
-      - label: "Icon Shortcode"
-        name: "name"
-        widget: "string"
-        required: true
-        hint: "Ex: icon-1password"
       - label: "Display Name"
         name: "display_name"
         widget: "string"
         required: true
         hint: "Ex: 1Password"
+      - label: "Icon Shortcode"
+        name: "name"
+        widget: "string"
+        required: true
+        hint: "Ex: icon-1password"
       - label: "icon code"
         name: "code"
         widget: "string"
         required: true
         hint: "Ex: f1cb"
-      - label: "icon category"
-        name: "type"
-        widget: "select"
-        options:
-          - { label: "Rectangle Flag", value: "rt"}
-          - { label: "Square Flag", value: "sq"}
-          - { label: "Rounded Rectangle Flag", value: "rd-rt"}
-          - { label: "Rounded Square Flag", value: "rd-sq"}
-          - { label: "Polygon Flag", value: "pg" }
-          - { label: "Mast Flag", value: "mt" }
-        required: true
-        hint: "Ex: halloween-costumes"
+      - label: "Category"
+        name: "category"
+        widget: "relation"
+        collection: "categories"
+        displayFields: ["display_name", "name"]
+        searchFields: ["display_name", "name"]
+        valueField: "name"

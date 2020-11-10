@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'laplinear-color';
-  src:  url('fonts/laplinear-color.eot?grh3w8');
-  src:  url('fonts/laplinear-color.eot?grh3w8#iefix') format('embedded-opentype'),
-    url('fonts/laplinear-color.ttf?grh3w8') format('truetype'),
-    url('fonts/laplinear-color.woff?grh3w8') format('woff'),
-    url('fonts/laplinear-color.svg?grh3w8#laplinear-color') format('svg');
+  font-family: 'lapicon';
+  src:  url('fonts/lapicon.eot?izlu4p');
+  src:  url('fonts/lapicon.eot?izlu4p#iefix') format('embedded-opentype'),
+    url('fonts/lapicon.ttf?izlu4p') format('truetype'),
+    url('fonts/lapicon.woff?izlu4p') format('woff'),
+    url('fonts/lapicon.svg?izlu4p#lapicon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +12,7 @@
 
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'laplinear-color' !important;
+  font-family: 'lapicon' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
