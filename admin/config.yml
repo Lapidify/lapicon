@@ -42,8 +42,8 @@ collections:
     name: "icons"
     folder: "_icons"
     create: true
-    identifier_field: "display_name"
-    slug: "{{field.name}}"
+    identifier_field: "name"
+    slug: "{{slug}}"
     delete: false
     editor:
       preview: false
