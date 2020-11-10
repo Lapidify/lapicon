@@ -10,7 +10,7 @@ layout: default
                     {{ content }}
                 </article>
             </div>
-            <div class="icons-wrap">
+            <div class="subcategory-wrap">
                 {% assign sorted_icons = site.icons | where: "type", page.name | sort: "name" %}
                 {% for icon in sorted_icons %}
                 {% include icon-box.html %}

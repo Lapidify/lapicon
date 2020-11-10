@@ -8,7 +8,9 @@ layout: null
       "title"    : "{{ icon.display_name | escape }}",
       "name" : "{{ icon.name }}",
       "code" : "{{ icon.code }}",
-      "type" : "{{ icon.type }}",
+      "category" : "{{ icon.category }}",
+      "subcategory" : "{{ icon.subCategory }}",
+      "svg" : "{{ icon.display_name | slugify }}",
       "url" : "{{ site.baseurl }}{{ icon.url }}"
 
     } {% unless forloop.last %},{% endunless %}
