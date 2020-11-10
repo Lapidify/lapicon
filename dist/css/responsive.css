@@ -46,6 +46,10 @@
     .grid-wrap {
         grid-template-columns: 1fr;
     }
+    .subcategory-wrap {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
 }
 @media (max-width: 545px) {
     .icons-wrap {
@@ -76,6 +80,12 @@
     .icons-wrap {
         grid-template-columns: 1fr 1fr;
     }
+    .subCategory-name {
+        display: none;
+    }
+    .subCategory-box {
+        height: 160px;
+    }
 }
 @media (max-width: 365px) {
     .modal_icon {
@@ -86,4 +96,9 @@
         grid-gap: 15px;
     }
 }
-
+/* min Width */
+@media (min-width: 400px) {
+    .subCategory-name-mb {
+        display: none;
+    }
+}

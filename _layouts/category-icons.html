@@ -11,9 +11,21 @@ layout: default
                 </article>
             </div>
             <div class="subcategory-wrap">
-                {% assign sorted_icons = site.icons | where: "type", page.name | sort: "name" %}
-                {% for icon in sorted_icons %}
-                {% include icon-box.html %}
+                {% for subcategory in site.subcategories %}
+                <div class="subCategory-box">
+                    {% assign icon_count = site.icons | where: 'subCategory', subcategory.name %}
+                    <span class="icon-count" style="color: {{ subcategory.color-primary }};">{{ icon_count.size }} Icons</span>
+                    <div class="subCategory-details">
+                        <span class="subCategory-name" style="color: {{ subcategory.color-primary }};">{{ subcategory.display_name }}</span>
+                        <span class="subCategory-name-mb" style="color: {{ subcategory.color-primary }};">{{ subcategory.display_name | truncate: 15}}</span>
+                    </div>
+                    <ul class="circles">
+                        {% assign sorted_icons = site.icons | where: 'subCategory', subcategory.name %}
+                        {% for icon in sorted_icons limit:15 %}
+                        <li><i class="{{ icon.name }}">{% include span.html %}</i></li>
+                        {% endfor %}
+                    </ul>
+                </div>
                 {% endfor %}
             </div>
         </div>

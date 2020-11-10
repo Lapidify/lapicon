@@ -582,6 +582,49 @@
     border: 2px solid #3f4551;
 }
 
+/* Sub Category */
+.subcategory-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 20px auto;
+    grid-gap: 30px;
+}
+.subCategory-box {
+    border: 2px solid #4a505b;;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #191c21, 
+             -5px -5px 10px #21242b;
+}
+.subCategory-box:hover {
+    box-shadow: inset 5px 5px 10px #191c21, 
+            inset -5px -5px 10px #21242b;
+}
+.subCategory-details {
+    background: #1d2026;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 10px;
+    border-top: 2px solid #4a505b;;
+    border-radius: 0px 0px 12px 12px;
+    z-index: 2;
+}
+.subCategory-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+.subCategory-name-mb {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
 /* Download Button */
 .download-btn {
     background: linear-gradient(145deg, #1f2229, #1a1d22);
