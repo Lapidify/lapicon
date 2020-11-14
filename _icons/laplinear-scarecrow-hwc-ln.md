@@ -1,7 +1,7 @@
 ---
-date: 2020-11-14 10:24:08
-display_name: Fairy
-name: laplinear-fairy-hwc-ln
-code: d000c
+date: 2020-11-14 10:27:14
+display_name: Scarecrow
+name: laplinear-scarecrow-hwc-ln
+code: d000b
 category: hwc-ln
 ---
