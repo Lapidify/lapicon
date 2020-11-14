@@ -1622,7 +1622,8 @@ label {
 	.hero-copy {
 		padding-right: 64px;
 		min-width: 552px;
-		width: 552px
+		width: 552px;
+		position: relative;
 	}
 	.hero-cta {
 		margin: 0

@@ -1,0 +1,27 @@
+<section class="hero">
+    <div class="container" s>
+        <div class="hero-inner">
+            <div class="hero-copy">
+                {% for icon in site.icons limit:4 %}
+                <div class="icon-featuring">
+                    <i class="{{ icon.name }}" style="font-size: 45px;">{% include span.html %}</i>
+                    <span class="icon_details">
+                        <span class="icon__name">{{ icon.display_name }}</span>
+                        <input class="icon__code" value="{{ icon.name }}" readonly>
+                    </span>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="hero-copy">
+                <h1 class="hero-title mt-0" style="margin-bottom: 0px;"><span class="feature_hero">Multitone Icons</span></h1>
+                <article class="markdown-body">
+                    {{ site.data.multitone-icons.description | markdownify }}
+                </article>
+                <div class="hero-cta" style="margin-top: 15px;">
+                    <a class="button neo-button" href="#">Pre order now</a>
+                    <a class="button neo-button" href="#">Get in touch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
