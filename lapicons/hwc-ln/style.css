@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'lapicon';
+  src:  url('fonts/lapicon.eot?z9ouzj');
+  src:  url('fonts/lapicon.eot?z9ouzj#iefix') format('embedded-opentype'),
+    url('fonts/lapicon.ttf?z9ouzj') format('truetype'),
+    url('fonts/lapicon.woff?z9ouzj') format('woff'),
+    url('fonts/lapicon.svg?z9ouzj#lapicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lapicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.laplinear-scientist-hwc-ln:before {
+  content: "\d0001";
+}
+.laplinear-werewolf-hwc-ln:before {
+  content: "\d0002";
+}
+.laplinear-pumpkin-hwc-ln:before {
+  content: "\d0003";
+}
+.laplinear-nurse-hwc-ln:before {
+  content: "\d0004";
+}
+.laplinear-magician-hwc-ln:before {
+  content: "\d0005";
+}
+.laplinear-unicorn-hwc-ln:before {
+  content: "\d0006";
+}
+.laplinear-wrestler-hwc-ln:before {
+  content: "\d0007";
+}
+.laplinear-gnome-hwc-ln:before {
+  content: "\d0008";
+}
+.laplinear-cowboy-hwc-ln:before {
+  content: "\d0009";
+}
+.laplinear-clown-hwc-ln:before {
+  content: "\d000a";
+}
+.laplinear-scarecrow-hwc-ln:before {
+  content: "\d000b";
+}
+.laplinear-fairy-hwc-ln:before {
+  content: "\d000c";
+}
+.laplinear-astronaut-hwc-ln:before {
+  content: "\d000d";
+}
+.laplinear-glasses-hwc-ln:before {
+  content: "\d000e";
+}
+.laplinear-prisioner-hwc-ln:before {
+  content: "\d000f";
+}
+.laplinear-viking-hwc-ln:before {
+  content: "\d0010";
+}
+.laplinear-nun-hwc-ln:before {
+  content: "\d0011";
+}
+.laplinear-mummy-hwc-ln:before {
+  content: "\d0012";
+}
+.laplinear-knight-hwc-ln:before {
+  content: "\d0013";
+}
+.laplinear-harlequin-hwc-ln:before {
+  content: "\d0014";
+}
+.laplinear-princess-hwc-ln:before {
+  content: "\d0015";
+}
+.laplinear-indian-woman-hwc-ln:before {
+  content: "\d0016";
+}
+.laplinear-pirate-hwc-ln:before {
+  content: "\d0017";
+}
+.laplinear-zombie-hwc-ln:before {
+  content: "\d0018";
+}
+.laplinear-skeleton-hwc-ln:before {
+  content: "\d0019";
+}
+.laplinear-cat-hwc-ln:before {
+  content: "\d001a";
+}
+.laplinear-wizard-hwc-ln:before {
+  content: "\d001b";
+}
+.laplinear-ghost-hwc-ln:before {
+  content: "\d001c";
+}
+.laplinear-firefighter-hwc-ln:before {
+  content: "\d001d";
+}
+.laplinear-troglodyte-hwc-ln:before {
+  content: "\d001e";
+}
+.laplinear-rat-hwc-ln:before {
+  content: "\d001f";
+}
+.laplinear-catrina-hwc-ln:before {
+  content: "\d0020";
+}
+.laplinear-monster-hwc-ln:before {
+  content: "\d0021";
+}
+.laplinear-ghost1-hwc-ln:before {
+  content: "\d0022";
+}
+.laplinear-witch-hwc-ln:before {
+  content: "\d0023";
+}
+.laplinear-serial-killer-hwc-ln:before {
+  content: "\d0024";
+}
+.laplinear-alien-hwc-ln:before {
+  content: "\d0025";
+}
+.laplinear-doll-hwc-ln:before {
+  content: "\d0026";
+}
+.laplinear-devil-hwc-ln:before {
+  content: "\d0027";
+}
+.laplinear-frankestein-hwc-ln:before {
+  content: "\d0028";
+}
+.laplinear-bride-hwc-ln:before {
+  content: "\d0029";
+}
+.laplinear-ninja-hwc-ln:before {
+  content: "\d002a";
+}
+.laplinear-vampire-hwc-ln:before {
+  content: "\d002b";
+}
+.laplinear-thief-hwc-ln:before {
+  content: "\d002c";
+}
+.laplinear-angel-hwc-ln:before {
+  content: "\d002d";
+}
+.laplinear-mime-hwc-ln:before {
+  content: "\d002e";
+}
+.laplinear-little-red-riding-hood-hwc-ln:before {
+  content: "\d002f";
+}
+.laplinear-robot-hwc-ln:before {
+  content: "\d0030";
+}
+.laplinear-superheroine-hwc-ln:before {
+  content: "\d0031";
+}
+.laplinear-police-hwc-ln:before {
+  content: "\d0032";
+}
