@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'lapicon';
-  src:  url('fonts/lapicon.eot?2y14dx');
-  src:  url('fonts/lapicon.eot?2y14dx#iefix') format('embedded-opentype'),
-    url('fonts/lapicon.ttf?2y14dx') format('truetype'),
-    url('fonts/lapicon.woff?2y14dx') format('woff'),
-    url('fonts/lapicon.svg?2y14dx#lapicon') format('svg');
+  src:  url('fonts/lapicon.eot?1yr7by');
+  src:  url('fonts/lapicon.eot?1yr7by#iefix') format('embedded-opentype'),
+    url('fonts/lapicon.ttf?1yr7by') format('truetype'),
+    url('fonts/lapicon.woff?1yr7by') format('woff'),
+    url('fonts/lapicon.svg?1yr7by#lapicon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,152 +26,152 @@ i {
 }
 
 .laplinear-kombucha-dk-ln:before {
-  content: "\e0001";
+  content: "\e900";
 }
 .laplinear-milk-box-dk-ln:before {
-  content: "\e0002";
+  content: "\e901";
 }
 .laplinear-coffee-dk-ln:before {
-  content: "\e0003";
+  content: "\e902";
 }
 .laplinear-wine-dk-ln:before {
-  content: "\e0004";
+  content: "\e903";
 }
 .laplinear-wine1-dk-ln:before {
-  content: "\e0005";
+  content: "\e904";
 }
 .laplinear-champagne-dk-ln:before {
-  content: "\e0006";
+  content: "\e905";
 }
 .laplinear-martini-dk-ln:before {
-  content: "\e0007";
+  content: "\e906";
 }
 .laplinear-cosmopolitan-dk-ln:before {
-  content: "\e0008";
+  content: "\e907";
 }
 .laplinear-energy-drink-dk-ln:before {
-  content: "\e0009";
+  content: "\e908";
 }
 .laplinear-cappuccino-dk-ln:before {
-  content: "\e000a";
+  content: "\e909";
 }
 .laplinear-cola-dk-ln:before {
-  content: "\e000b";
+  content: "\e90a";
 }
 .laplinear-cola1-dk-ln:before {
-  content: "\e000c";
+  content: "\e90b";
 }
 .laplinear-matcha-dk-ln:before {
-  content: "\e000d";
+  content: "\e90c";
 }
 .laplinear-chocolate-milk-dk-ln:before {
-  content: "\e000e";
+  content: "\e90d";
 }
 .laplinear-mimosa-dk-ln:before {
-  content: "\e000f";
+  content: "\e90e";
 }
 .laplinear-soda-dk-ln:before {
-  content: "\e0010";
+  content: "\e90f";
 }
 .laplinear-sangria-dk-ln:before {
-  content: "\e0011";
+  content: "\e910";
 }
 .laplinear-beer-dk-ln:before {
-  content: "\e0012";
+  content: "\e911";
 }
 .laplinear-lemonade-dk-ln:before {
-  content: "\e0013";
+  content: "\e912";
 }
 .laplinear-tea-dk-ln:before {
-  content: "\e0014";
+  content: "\e913";
 }
 .laplinear-milkshake-dk-ln:before {
-  content: "\e0015";
+  content: "\e914";
 }
 .laplinear-coffee1-dk-ln:before {
-  content: "\e0016";
+  content: "\e915";
 }
 .laplinear-bubble-tea-dk-ln:before {
-  content: "\e0017";
+  content: "\e916";
 }
 .laplinear-mojito-dk-ln:before {
-  content: "\e0018";
+  content: "\e917";
 }
 .laplinear-latte-macchiato-dk-ln:before {
-  content: "\e0019";
+  content: "\e918";
 }
 .laplinear-infusion-dk-ln:before {
-  content: "\e001a";
+  content: "\e919";
 }
 .laplinear-horchata-dk-ln:before {
-  content: "\e001b";
+  content: "\e91a";
 }
 .laplinear-Ice-Tea-dk-ln:before {
-  content: "\e001c";
+  content: "\e91b";
 }
 .laplinear-smoothie-dk-ln:before {
-  content: "\e001d";
+  content: "\e91c";
 }
 .laplinear-beer1-dk-ln:before {
-  content: "\e001e";
+  content: "\e91d";
 }
 .laplinear-milk-dk-ln:before {
-  content: "\e001f";
+  content: "\e91e";
 }
 .laplinear-milkshake1-dk-ln:before {
-  content: "\e0020";
+  content: "\e91f";
 }
 .laplinear-strawberry-milk-dk-ln:before {
-  content: "\e0021";
+  content: "\e920";
 }
 .laplinear-whiskey-dk-ln:before {
-  content: "\e0022";
+  content: "\e921";
 }
 .laplinear-dalgona-dk-ln:before {
-  content: "\e0023";
+  content: "\e922";
 }
 .laplinear-smoothie1-dk-ln:before {
-  content: "\e0024";
+  content: "\e923";
 }
 .laplinear-iced-coffee-dk-ln:before {
-  content: "\e0025";
+  content: "\e924";
 }
 .laplinear-juice-box-dk-ln:before {
-  content: "\e0026";
+  content: "\e925";
 }
 .laplinear-cocktail-dk-ln:before {
-  content: "\e0027";
+  content: "\e926";
 }
 .laplinear-soda1-dk-ln:before {
-  content: "\e0028";
+  content: "\e927";
 }
 .laplinear-tea-pot-dk-ln:before {
-  content: "\e0029";
+  content: "\e928";
 }
 .laplinear-punch-dk-ln:before {
-  content: "\e002a";
+  content: "\e929";
 }
 .laplinear-ramune-dk-ln:before {
-  content: "\e002b";
+  content: "\e92a";
 }
 .laplinear-coconut-dk-ln:before {
-  content: "\e002c";
+  content: "\e92b";
 }
 .laplinear-margarita-dk-ln:before {
-  content: "\e002d";
+  content: "\e92c";
 }
 .laplinear-hot-chocolate-dk-ln:before {
-  content: "\e002e";
+  content: "\e92d";
 }
 .laplinear-water-dk-ln:before {
-  content: "\e002f";
+  content: "\e92e";
 }
 .laplinear-cocktail-shaker-dk-ln:before {
-  content: "\e0030";
+  content: "\e92f";
 }
 .laplinear-cream-soda-dk-ln:before {
-  content: "\e0031";
+  content: "\e930";
 }
 .laplinear-orange-juice-dk-ln:before {
-  content: "\e0032";
+  content: "\e931";
 }
