@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'lapicon';
+  src:  url('fonts/lapicon.eot?skpqru');
+  src:  url('fonts/lapicon.eot?skpqru#iefix') format('embedded-opentype'),
+    url('fonts/lapicon.ttf?skpqru') format('truetype'),
+    url('fonts/lapicon.woff?skpqru') format('woff'),
+    url('fonts/lapicon.svg?skpqru#lapicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lapicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.laplinear-tomato-fr-ln:before {
+  content: "\a001";
+}
+.laplinear-lime-fr-ln:before {
+  content: "\a002";
+}
+.laplinear-cabbage-fr-ln:before {
+  content: "\a003";
+}
+.laplinear-melon-fr-ln:before {
+  content: "\a004";
+}
+.laplinear-broccoli-fr-ln:before {
+  content: "\a005";
+}
+.laplinear-peas-fr-ln:before {
+  content: "\a006";
+}
+.laplinear-radish-fr-ln:before {
+  content: "\a007";
+}
+.laplinear-cucumber-fr-ln:before {
+  content: "\a008";
+}
+.laplinear-eggplant-fr-ln:before {
+  content: "\a009";
+}
+.laplinear-orange-fr-ln:before {
+  content: "\a00a";
+}
+.laplinear-blueberry-fr-ln:before {
+  content: "\a00b";
+}
+.laplinear-pomegranate-fr-ln:before {
+  content: "\a00c";
+}
+.laplinear-artichoke-fr-ln:before {
+  content: "\a00d";
+}
+.laplinear-corn-fr-ln:before {
+  content: "\a00e";
+}
+.laplinear-strawberry-fr-ln:before {
+  content: "\a00f";
+}
+.laplinear-Raspberry-fr-ln:before {
+  content: "\a010";
+}
+.laplinear-lettuce-fr-ln:before {
+  content: "\a011";
+}
+.laplinear-mango-fr-ln:before {
+  content: "\a012";
+}
+.laplinear-leek-fr-ln:before {
+  content: "\a013";
+}
+.laplinear-pumpkin1-fr-ln:before {
+  content: "\a014";
+}
+.laplinear-tangerine-fr-ln:before {
+  content: "\a015";
+}
+.laplinear-paprika-fr-ln:before {
+  content: "\a016";
+}
+.laplinear-onion-fr-ln:before {
+  content: "\a017";
+}
+.laplinear-cherry-fr-ln:before {
+  content: "\a018";
+}
+.laplinear-potato-fr-ln:before {
+  content: "\a019";
+}
+.laplinear-apple-fr-ln:before {
+  content: "\a01a";
+}
+.laplinear-kiwi-fr-ln:before {
+  content: "\a01b";
+}
+.laplinear-pepper-fr-ln:before {
+  content: "\a01c";
+}
+.laplinear-banana-fr-ln:before {
+  content: "\a01d";
+}
+.laplinear-ginger-fr-ln:before {
+  content: "\a01e";
+}
+.laplinear-plum-fr-ln:before {
+  content: "\a01f";
+}
+.laplinear-sweet-potato-fr-ln:before {
+  content: "\a020";
+}
+.laplinear-papaya-fr-ln:before {
+  content: "\a021";
+}
+.laplinear-olive-fr-ln:before {
+  content: "\a022";
+}
+.laplinear-carrot-fr-ln:before {
+  content: "\a023";
+}
+.laplinear-lemon-fr-ln:before {
+  content: "\a024";
+}
+.laplinear-pineapple-fr-ln:before {
+  content: "\a025";
+}
+.laplinear-apricot-fr-ln:before {
+  content: "\a026";
+}
+.laplinear-peach-fr-ln:before {
+  content: "\a027";
+}
+.laplinear-passion-fruit-fr-ln:before {
+  content: "\a028";
+}
+.laplinear-coconut-fr-ln:before {
+  content: "\a029";
+}
+.laplinear-chili-fr-ln:before {
+  content: "\a02a";
+}
+.laplinear-garlic-fr-ln:before {
+  content: "\a02b";
+}
+.laplinear-grapes-fr-ln:before {
+  content: "\a02c";
+}
+.laplinear-avocado-fr-ln:before {
+  content: "\a02d";
+}
+.laplinear-pear-fr-ln:before {
+  content: "\a02e";
+}
+.laplinear-zucchini-fr-ln:before {
+  content: "\a02f";
+}
+.laplinear-asparagus-fr-ln:before {
+  content: "\a030";
+}
+.laplinear-mushroom-fr-ln:before {
+  content: "\a031";
+}
+.laplinear-watermelon-fr-ln:before {
+  content: "\a032";
+}
