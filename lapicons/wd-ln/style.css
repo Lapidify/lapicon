@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'lapicon';
+  src:  url('fonts/lapicon.eot?spxhew');
+  src:  url('fonts/lapicon.eot?spxhew#iefix') format('embedded-opentype'),
+    url('fonts/lapicon.ttf?spxhew') format('truetype'),
+    url('fonts/lapicon.woff?spxhew') format('woff'),
+    url('fonts/lapicon.svg?spxhew#lapicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lapicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.laplinear-arch-wd-ln:before {
+  content: "\b001";
+}
+.laplinear-couple-wd-ln:before {
+  content: "\b002";
+}
+.laplinear-ring-wd-ln:before {
+  content: "\b003";
+}
+.laplinear-table-wd-ln:before {
+  content: "\b004";
+}
+.laplinear-cake-wd-ln:before {
+  content: "\b005";
+}
+.laplinear-bride-dress-wd-ln:before {
+  content: "\b006";
+}
+.laplinear-camera-wd-ln:before {
+  content: "\b007";
+}
+.laplinear-menu-wd-ln:before {
+  content: "\b008";
+}
+.laplinear-rings-wd-ln:before {
+  content: "\b009";
+}
+.laplinear-carriage-wd-ln:before {
+  content: "\b00a";
+}
+.laplinear-gift-wd-ln:before {
+  content: "\b00b";
+}
+.laplinear-certificate-wd-ln:before {
+  content: "\b00c";
+}
+.laplinear-invitation-wd-ln:before {
+  content: "\b00d";
+}
+.laplinear-ring1-wd-ln:before {
+  content: "\b00e";
+}
+.laplinear-couple1-wd-ln:before {
+  content: "\b00f";
+}
+.laplinear-groom-suit-wd-ln:before {
+  content: "\b010";
+}
+.laplinear-bells-wd-ln:before {
+  content: "\b011";
+}
+.laplinear-honey-moon-wd-ln:before {
+  content: "\b012";
+}
+.laplinear-champagne-wd-ln:before {
+  content: "\b013";
+}
+.laplinear-bouquet-wd-ln:before {
+  content: "\b014";
+}
+.laplinear-bride-wd-ln:before {
+  content: "\b015";
+}
+.laplinear-groom-wd-ln:before {
+  content: "\b016";
+}
+.laplinear-dance-floor-wd-ln:before {
+  content: "\b017";
+}
+.laplinear-balloon-wd-ln:before {
+  content: "\b018";
+}
+.laplinear-viola-wd-ln:before {
+  content: "\b019";
+}
+.laplinear-calendar-wd-ln:before {
+  content: "\b01a";
+}
+.laplinear-wedding-car-wd-ln:before {
+  content: "\b01b";
+}
+.laplinear-location-wd-ln:before {
+  content: "\b01c";
+}
+.laplinear-couple2-wd-ln:before {
+  content: "\b01d";
+}
+.laplinear-romantic-dinner-wd-ln:before {
+  content: "\b01e";
+}
