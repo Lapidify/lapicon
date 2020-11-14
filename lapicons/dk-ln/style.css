@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'lapicon';
+  src:  url('fonts/lapicon.eot?2y14dx');
+  src:  url('fonts/lapicon.eot?2y14dx#iefix') format('embedded-opentype'),
+    url('fonts/lapicon.ttf?2y14dx') format('truetype'),
+    url('fonts/lapicon.woff?2y14dx') format('woff'),
+    url('fonts/lapicon.svg?2y14dx#lapicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lapicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.laplinear-kombucha-dk-ln:before {
+  content: "\e0001";
+}
+.laplinear-milk-box-dk-ln:before {
+  content: "\e0002";
+}
+.laplinear-coffee-dk-ln:before {
+  content: "\e0003";
+}
+.laplinear-wine-dk-ln:before {
+  content: "\e0004";
+}
+.laplinear-wine1-dk-ln:before {
+  content: "\e0005";
+}
+.laplinear-champagne-dk-ln:before {
+  content: "\e0006";
+}
+.laplinear-martini-dk-ln:before {
+  content: "\e0007";
+}
+.laplinear-cosmopolitan-dk-ln:before {
+  content: "\e0008";
+}
+.laplinear-energy-drink-dk-ln:before {
+  content: "\e0009";
+}
+.laplinear-cappuccino-dk-ln:before {
+  content: "\e000a";
+}
+.laplinear-cola-dk-ln:before {
+  content: "\e000b";
+}
+.laplinear-cola1-dk-ln:before {
+  content: "\e000c";
+}
+.laplinear-matcha-dk-ln:before {
+  content: "\e000d";
+}
+.laplinear-chocolate-milk-dk-ln:before {
+  content: "\e000e";
+}
+.laplinear-mimosa-dk-ln:before {
+  content: "\e000f";
+}
+.laplinear-soda-dk-ln:before {
+  content: "\e0010";
+}
+.laplinear-sangria-dk-ln:before {
+  content: "\e0011";
+}
+.laplinear-beer-dk-ln:before {
+  content: "\e0012";
+}
+.laplinear-lemonade-dk-ln:before {
+  content: "\e0013";
+}
+.laplinear-tea-dk-ln:before {
+  content: "\e0014";
+}
+.laplinear-milkshake-dk-ln:before {
+  content: "\e0015";
+}
+.laplinear-coffee1-dk-ln:before {
+  content: "\e0016";
+}
+.laplinear-bubble-tea-dk-ln:before {
+  content: "\e0017";
+}
+.laplinear-mojito-dk-ln:before {
+  content: "\e0018";
+}
+.laplinear-latte-macchiato-dk-ln:before {
+  content: "\e0019";
+}
+.laplinear-infusion-dk-ln:before {
+  content: "\e001a";
+}
+.laplinear-horchata-dk-ln:before {
+  content: "\e001b";
+}
+.laplinear-Ice-Tea-dk-ln:before {
+  content: "\e001c";
+}
+.laplinear-smoothie-dk-ln:before {
+  content: "\e001d";
+}
+.laplinear-beer1-dk-ln:before {
+  content: "\e001e";
+}
+.laplinear-milk-dk-ln:before {
+  content: "\e001f";
+}
+.laplinear-milkshake1-dk-ln:before {
+  content: "\e0020";
+}
+.laplinear-strawberry-milk-dk-ln:before {
+  content: "\e0021";
+}
+.laplinear-whiskey-dk-ln:before {
+  content: "\e0022";
+}
+.laplinear-dalgona-dk-ln:before {
+  content: "\e0023";
+}
+.laplinear-smoothie1-dk-ln:before {
+  content: "\e0024";
+}
+.laplinear-iced-coffee-dk-ln:before {
+  content: "\e0025";
+}
+.laplinear-juice-box-dk-ln:before {
+  content: "\e0026";
+}
+.laplinear-cocktail-dk-ln:before {
+  content: "\e0027";
+}
+.laplinear-soda1-dk-ln:before {
+  content: "\e0028";
+}
+.laplinear-tea-pot-dk-ln:before {
+  content: "\e0029";
+}
+.laplinear-punch-dk-ln:before {
+  content: "\e002a";
+}
+.laplinear-ramune-dk-ln:before {
+  content: "\e002b";
+}
+.laplinear-coconut-dk-ln:before {
+  content: "\e002c";
+}
+.laplinear-margarita-dk-ln:before {
+  content: "\e002d";
+}
+.laplinear-hot-chocolate-dk-ln:before {
+  content: "\e002e";
+}
+.laplinear-water-dk-ln:before {
+  content: "\e002f";
+}
+.laplinear-cocktail-shaker-dk-ln:before {
+  content: "\e0030";
+}
+.laplinear-cream-soda-dk-ln:before {
+  content: "\e0031";
+}
+.laplinear-orange-juice-dk-ln:before {
+  content: "\e0032";
+}
