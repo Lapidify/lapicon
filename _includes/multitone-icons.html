@@ -2,18 +2,14 @@
     <div class="container" s>
         <div class="hero-inner">
             <div class="hero-copy">
-                {% for icon in site.icons limit:4 %}
-                <div class="icon-featuring">
-                    <i class="{{ icon.name }}" style="font-size: 45px;">{% include span.html %}</i>
-                    <span class="icon_details">
-                        <span class="icon__name">{{ icon.display_name }}</span>
-                        <input class="icon__code" value="{{ icon.name }}" readonly>
-                    </span>
-                </div>
-                {% endfor %}
+                {% include multitone-icon-scientist.html %}
+                <span class="icons-features ct_1">🔥 Best modern icon to use in projects.</span>
+                <span class="icons-features ct_2">👌 Very easy to add to your project.</span>
+                <span class="icons-features ct_3">🔗 svg downloading option available</span>
+                <span class="icons-features ct_4">💖 Both lineal & Multitone icons</span>
             </div>
             <div class="hero-copy">
-                <h1 class="hero-title mt-0" style="margin-bottom: 0px;"><span class="feature_hero">Multitone Icons</span></h1>
+                <h1 class="hero-title mt-0 header-heading" style="margin-bottom: 0px;"><span>Multitone</span><span>Icons</span></h1>
                 <article class="markdown-body">
                     {{ site.data.multitone-icons.description | markdownify }}
                 </article>
